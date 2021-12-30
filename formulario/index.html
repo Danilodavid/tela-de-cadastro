@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon e login/icons8-gato-preto-30.png" type="image/x-icon">
+    <link rel="stylesheet" href="formulario.css">
+
+    <title>formulario</title>
+</head>
+
+<body>
+    <form method="post">
+        <fieldset>
+
+            <h1>formulario</h1>
+
+            <fieldset class="fieldset" id="um">
+                <legend> Nome </legend>
+                <label name="input"> Nome:</label>
+                <input type="text" class="nome" name="input" placeholder="Digite seu Nome completo" required> 
+                
+             
+                <br>
+                <label name="input"> Email:</label>
+                <input type="email" name="input" class="nome" placeholder="Digite seu Email" required>
+            </fieldset>
+            <br>
+            <fieldset class="fieldset" id="dois">
+                <legend> Sexo </legend>
+                <label name="radio" id="radio">Masc:</label>
+                <input type="radio" name="radio" class="radio" required>
+                <label name="radio">Fem:</label>
+                <input type="radio" name="radio" class="radio" required>
+                <label name="radio">Outros:</label>
+                <input type="radio" name="radio" class="radio" required>
+            </fieldset>
+            <br>
+            <fieldset class="fieldset0">
+                <legend>Estado Cidade municipio</legend>
+                <select id="estado"  >
+ <option>Norte</option>	
+ 		
+						<optgroup>
+
+							<option >Roraima</option>
+							<option>Rondônia</option>
+							<option>Amapá</option>
+							<option>Amazonas</option>
+							<option >Pará</option>
+						</optgroup>
+<option>Nordeste</option>	
+						<optgroup>
+							<option>Bahia</option>
+							<option>Alagoas</option>
+							<option>Ceará</option>
+							<option>Maranhão</option>
+							<option>Mato Grosso do Sul </option>
+							<option>Pernambuco</option>
+							<option>Rio Grande do Norte</option>
+							<option>Sergipe</option>
+						</optgroup>
+<option>centro-oeste</option>	
+					<optgroup>
+								<option>Mato Grosso</option>
+								<option>Goiás</option>
+								<option>Tocantins</option>
+								<option>Distrito Federal </option>
+					</optgroup>
+<option>Suldeste</option>	
+						<optgroup>
+							<option>São Paulo</option>
+							<option>rio de janeiro</option>
+							<option>Minas Gerais</option>
+							<option>Espírito Santo</option>
+						</optgroup>
+<option>Sul</option>	
+						<optgroup>
+							<option>Paraná</option>
+							<option>Rio Grande do Sul </option>
+							<option>Santa Catarina </option>
+						</optgroup>
+</select>
+                <select id="cidades">
+                	<option>cidades</option>
+                	<optgroup>
+								<option>cidades</option>
+								<option>cidades</option>
+								<option>cidades</option>
+								<option>cidades</option>
+  					</optgroup>
+</select>
+                </select>
+                <select id="municipio">
+                	<option>municipio</option>
+                	<optgroup>
+						<option>municipio</option>
+						<option>municipio</option>
+						<option>municipio</option>
+						<option>municipio</option>
+ 					</optgroup>
+</select>
+            </fieldset>
+            <br>
+            <fieldset id="quarto">
+            	<legend>Endereço</legend>
+            	<label name="setor">Setor:</label>
+            	<input type="text" name="setor" placeholder=" Nome do seu setor" required>
+            	<br>
+            	<label name="rua">Rua:</label>
+            	<input type="text" name="rua" placeholder="Nome da rua" required>
+            	<br>
+            	<label name="numero">numero:</label>
+            	<input type="number" name="numero" placeholder="0006"  required style="width: 60px">
+            </fieldset>
+            <br>
+            <fieldset class="fieldset" id="tres">
+                <legend> Data de Nascimento </legend>
+                <label>Data de nascimento:</label>
+                <input type="date" name="data">
+            </fieldset>
+            <br>
+            <fieldset class="fieldset1">
+                <legend> Preencha com os Documentos </legend>
+                <label name="cpf">CPF:</label>
+                <input type="tel" name="cpf" class="Documentos" required autocomplete placeholder="000.000.000-00">
+                <br>
+                <label name="rg">RG:</label>
+                <input type="tel" name="rg" class="Documentos" required autocomplete placeholder="00.000.00-00">
+                <br>
+                <label name="tel">TEL:</label>
+                <input type="tel" name="tel" class="Documentos" required autocomplete placeholder="00 000 0000-0000">
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend> Fale sobre Voce </legend>
+
+                <textarea rows="4" cols="150" placeholder="fale sobre voce com no minimo de 150 caracteres" required autocomplete class="fieldset2" maxlength="150"></textarea>
+            </fieldset>
+            <input type="submit" name="Enviar" value="Enviar" id="enviar" > <input type="reset" name="reset"  id="reset">
+        </fieldset>
+    </form>
+<!-- <input list="browsers" />
+<datalist id="browsers">
+  <option value="Chrome">
+  <option value="Firefox">
+  <option value="Internet Explorer">
+  <option value="Opera">
+  <option value="Safari">
+</datalist> -->
+
+
+</body>
+
+</html>
+
